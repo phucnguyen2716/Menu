@@ -1,0 +1,11 @@
+C:\Users\Phuc\Documents\Menu(Created Form)\Menu\bin\x64\Debug\Menu.exe.config
+C:\Users\Phuc\Documents\Menu(Created Form)\Menu\bin\x64\Debug\Menu.exe
+C:\Users\Phuc\Documents\Menu(Created Form)\Menu\bin\x64\Debug\Menu.pdb
+C:\Users\Phuc\Documents\Menu(Created Form)\Menu\obj\x64\Debug\Menu.csproj.AssemblyReference.cache
+C:\Users\Phuc\Documents\Menu(Created Form)\Menu\obj\x64\Debug\Menu.Form1.resources
+C:\Users\Phuc\Documents\Menu(Created Form)\Menu\obj\x64\Debug\Menu.Properties.Resources.resources
+C:\Users\Phuc\Documents\Menu(Created Form)\Menu\obj\x64\Debug\Menu.Resource1.resources
+C:\Users\Phuc\Documents\Menu(Created Form)\Menu\obj\x64\Debug\Menu.csproj.GenerateResource.cache
+C:\Users\Phuc\Documents\Menu(Created Form)\Menu\obj\x64\Debug\Menu.csproj.CoreCompileInputs.cache
+C:\Users\Phuc\Documents\Menu(Created Form)\Menu\obj\x64\Debug\Menu.exe
+C:\Users\Phuc\Documents\Menu(Created Form)\Menu\obj\x64\Debug\Menu.pdb
