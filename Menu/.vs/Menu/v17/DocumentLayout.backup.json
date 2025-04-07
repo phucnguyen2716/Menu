@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{006C6998-C343-4371-8DD4-FCDB6BA9DC21}|Menu.csproj|c:\\users\\phuc\\documents\\menu(created form)\\menu\\artantextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{006C6998-C343-4371-8DD4-FCDB6BA9DC21}|Menu.csproj|solutionrelative:artantextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{006C6998-C343-4371-8DD4-FCDB6BA9DC21}|Menu.csproj|c:\\users\\phuc\\documents\\menu(created form)\\menu\\artantextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{006C6998-C343-4371-8DD4-FCDB6BA9DC21}|Menu.csproj|solutionrelative:artantextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{006C6998-C343-4371-8DD4-FCDB6BA9DC21}|Menu.csproj|C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{006C6998-C343-4371-8DD4-FCDB6BA9DC21}|Menu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{006C6998-C343-4371-8DD4-FCDB6BA9DC21}|Menu.csproj|C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{006C6998-C343-4371-8DD4-FCDB6BA9DC21}|Menu.csproj|c:\\users\\phuc\\documents\\menu(created form)\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{006C6998-C343-4371-8DD4-FCDB6BA9DC21}|Menu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -21,30 +29,56 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:17:36.333Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArtanTextBox.cs",
+              "DocumentMoniker": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\ArtanTextBox.cs",
+              "RelativeDocumentMoniker": "ArtanTextBox.cs",
+              "ToolTip": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\ArtanTextBox.cs",
+              "RelativeToolTip": "ArtanTextBox.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAA6wKgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T15:06:59.943Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ArtanTextBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\ArtanTextBox.cs",
+              "RelativeDocumentMoniker": "ArtanTextBox.cs",
+              "ToolTip": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\ArtanTextBox.cs [Design]",
+              "RelativeToolTip": "ArtanTextBox.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T03:17:36.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T14:47:11.209Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\Phuc\\Documents\\Menu(Created Form)\\Menu\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T12:43:43.393Z",
               "EditorCaption": " [Design]"

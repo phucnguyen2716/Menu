@@ -23,54 +23,54 @@ namespace Menu
             lb2.Font = new Font(lb2.Font.FontFamily, 12);
             lb3.Font = new Font(lb3.Font.FontFamily, 12);
             lb4.Font = new Font(lb4.Font.FontFamily, 12);
-            btnBack.Font = new Font(btnBack.Font.FontFamily, 16);
+            btnBack.Font = new Font(btnBack.Font.FontFamily, 20);
         }
 
         bool IsLengthValid(ArtanTextBox text)
         {
-            if (text == null || text.Text == null) return false;
-            return text.Text.Length >= 8;
+            if (text == null || string.IsNullOrEmpty(text.Text?.Trim()) ) return false;
+            return text.Text.Trim().Length >= 8;
         }
         bool HasLowercase(ArtanTextBox text)
         {
-            if (text == null || text.Text == null) return false;
-            return Regex.IsMatch(text.Text, "[a-z]");
+            if (text == null || string.IsNullOrEmpty(text.Text?.Trim())) return false;
+            return Regex.IsMatch(text.Text.Trim(), "[a-z]");
         }
-
         bool HasSpecialSymbol(ArtanTextBox text)
         {
-            if (text == null || text.Text == null) return false;
-            return Regex.IsMatch(text.Text, "[^a-zA-Z0-9]");
+            if (text == null || string.IsNullOrEmpty(text.Text?.Trim())) return false;
+            return Regex.IsMatch(text.Text.Trim(), "[^a-zA-Z0-9]");
         }
-
         bool HasNumber(ArtanTextBox text)
         {
-            if (text == null || text.Text == null) return false;
-            return Regex.IsMatch(text.Text, "[0-9]");
+            if (text == null || string.IsNullOrEmpty(text.Text?.Trim())) return false;
+            return Regex.IsMatch(text.Text.Trim(), "[0-9]");
         }
+
         private void txtPassword_TextChanged(object sender, EventArgs e)
         {
-            if (txtPassword == null || lb1 == null || pb1 == null) return;
-                if (IsLengthValid(txtPassword))
-                {
-                    lb1.ForeColor = Color.FromArgb(0, 189, 83);
-                    pb1.Image = GetImageFromBytes(Resource1.Yes);
-                }
-                else
-                {
-                    lb1.ForeColor = Color.Red;
-                    pb1.Image = GetImageFromBytes(Resource1.No);
-                }
-                if (HasLowercase(txtPassword))
-                {
-                    lb2.ForeColor = Color.FromArgb(0, 189, 83);
-                    pb2.Image = GetImageFromBytes(Resource1.Yes);
-                }
-                else
-                {
-                    lb2.ForeColor = Color.Red;
-                    pb2.Image = GetImageFromBytes(Resource1.No);
-                }
+
+            if (IsLengthValid(txtPassword))
+            {
+                lb1.ForeColor = Color.FromArgb(0, 189, 83);
+                pb1.Image = GetImageFromBytes(Resource1.Yes);
+            }
+            else
+            {
+                lb1.ForeColor = Color.Red;
+                pb1.Image = GetImageFromBytes(Resource1.No);
+            }
+
+            if (HasLowercase(txtPassword))
+            {
+                lb2.ForeColor = Color.FromArgb(0, 189, 83);
+                pb2.Image = GetImageFromBytes(Resource1.Yes);
+            }
+            else
+            {
+                lb2.ForeColor = Color.Red;
+                pb2.Image = GetImageFromBytes(Resource1.No);
+            }
             if (HasSpecialSymbol(txtPassword))
             {
                 lb3.ForeColor = Color.FromArgb(0, 189, 83);
@@ -105,5 +105,9 @@ namespace Menu
             return null;
         }
 
+        private void artanPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
     }

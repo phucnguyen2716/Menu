@@ -77,6 +77,7 @@
             this.artanPanel1.Name = "artanPanel1";
             this.artanPanel1.Size = new System.Drawing.Size(923, 572);
             this.artanPanel1.TabIndex = 0;
+            this.artanPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.artanPanel1_Paint);
             // 
             // btnBack
             // 
@@ -87,16 +88,16 @@
             this.btnBack.BorderSize = 0;
             this.btnBack.FlatAppearance.BorderSize = 0;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBack.ForeColor = System.Drawing.Color.Black;
+            this.btnBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(128)))), ((int)(((byte)(182)))));
             this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBack.Location = new System.Drawing.Point(45, 490);
+            this.btnBack.Location = new System.Drawing.Point(3, 3);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(136, 69);
+            this.btnBack.Size = new System.Drawing.Size(135, 61);
             this.btnBack.TabIndex = 21;
             this.btnBack.Text = "Back";
             this.btnBack.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnBack.TextColor = System.Drawing.Color.Black;
+            this.btnBack.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(128)))), ((int)(((byte)(182)))));
             this.btnBack.UseVisualStyleBackColor = false;
             // 
             // pb4

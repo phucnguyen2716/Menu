@@ -151,13 +151,7 @@ namespace Menu
             set
             {
                 waterMark = value;
-                if (Text == waterMark || Text == string.Empty)
-                {
-                    Text = waterMark;
-                    textBox.ForeColor = waterMarkColor;
-                }
-                else textBox.ForeColor = mColor;
-                Invalidate();
+                Invalidate(); 
             }
         }
         protected override void OnFontChanged(EventArgs e)
@@ -175,7 +169,12 @@ namespace Menu
         }
         public override string Text
         {
-            get => textBox.Text;
+            get
+            {
+                if (textBox.Text == waterMark)
+                    return "";
+                return textBox.Text;
+            }
             set
             {
                 textBox.Text = value;
